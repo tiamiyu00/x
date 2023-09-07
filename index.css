@@ -1,0 +1,188 @@
+body{
+    background-color: #000;
+    margin: 0.7rem;
+}
+/*CONTENT OF THE PAGE **********/
+.content{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin: 1.4rem;
+}
+/*X - LOGO**********/
+.logo{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: #000;
+}
+
+.log{
+    width: 50%;
+}
+/*THE PAGE FORM**********/
+.form{
+    width: 100%;
+    margin-top: 2rem;
+}
+.x p{
+    color: #fff;
+    line-height: 36px;
+    font-size: 25px;
+    font-weight: 700;
+    font-style: normal;
+    width: 90%;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+}
+.x{
+    width: 90%;
+}
+/*BUttons **********/
+button{
+    background-color:#fff ;
+    border-radius: 2rem;
+    height: 2.5rem;
+    width: 100%;
+}
+.btn1{
+    width: 100%;
+    
+}
+.b-btn1, .b-btn2{
+    width: 100%;
+}
+.b-btn1 .sign{
+margin: 0;
+font-family: "Gooogle Sans", arisl, sans-serif;
+font-size: 15px;
+font-weight: 500;
+color: #3c4043;
+
+}
+.email{
+    font-family: "Times New Roman";
+    font-size: small;
+    font-weight: 500;
+    color: #605959;
+    margin: 0;
+}
+.btn2{
+    display: flex;
+}
+.b-btn2 p{
+   
+    width: 100%;
+    margin: 7px 10px 7px 10px;
+    font-weight: 700;
+    color: #0f1419;
+    font-size: 17px;
+    line-height: 20px;
+    font-family: TwittweChip, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,  Helvetica,Arial, sans-serif;
+}
+.apple{
+    width: 1.2rem;
+    float: left;
+    margin-top: 4px;
+    padding-left: 4rem;
+    margin-right: -3rem;
+}
+.or p{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #d5d5d5;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: TwittweChip, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,  Helvetica,Arial, sans-serif;
+
+}
+
+.or p span{
+    background: #000;
+    padding: 0 10px;
+    color: rgb(156, 156, 149);
+}
+.or{
+    margin:  1.7rem  0.2rem  1.7rem  0.9rem;
+}
+.in{
+    margin: 0.7rem;
+}
+input{
+    width: 100%;
+    background-color: #000;
+    font-family:  TwittweChip, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,  Helvetica,Arial, sans-serif;    ;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 1rem 0.5rem ;
+    border: 1px solid rgb(122, 117, 110);
+    border-radius: 2px;
+    margin-bottom: 2rem;
+}
+.btn3{
+    margin-bottom: 1rem;
+}
+.b-btn3{
+    font-family:  TwittweChip, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,  Helvetica,Arial, sans-serif;    ;
+   font-weight: 700;
+   font-size: 15px;
+   line-height: 20px;
+   color:#0f1419 ;
+}
+.b-btn4{
+    background-color: #000;
+  font-size: 15px;
+  font-weight: 700;
+  color: #eff3f4;
+  border: 1px solid rgb(122, 117, 110);
+}
+.gg{
+    width: 1rem;
+    margin-left: 3.8rem;
+    margin-right: -15rem;
+    float: left;
+
+}
+/*DESKTOP VIEW*******************/
+@media (min-width: 768px) {
+  body{
+    margin-top: 1rem;
+    background-color: rgba(255, 255, 255, 0.5);  display: flex;
+    justify-content: center;
+  }
+ .logo{
+    width:20%;
+    margin-top: 1rem;
+ }
+  .content{
+    margin-top: 0.5rem;
+    width: 47%;
+    background-color: #000;
+    align-content: center;
+    border-radius: 3rem;
+    margin: 0.2rem;
+  }
+  .form{
+    width: 70%;
+    background-color: #000;
+    padding: 1rem;
+  }
+  .form{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 1rem;
+  }
+  .apple{
+    margin-left:4rem;
+    margin-right: -6rem;
+
+  }
+  /*BTN1 BUTTON****************/
+  .gg{
+    margin-left:8rem;
+    margin-right: -6rem;
+
+  }
+}
+/*TIAMIYU AHMED **********/

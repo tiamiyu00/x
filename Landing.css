@@ -1,0 +1,368 @@
+body{
+  
+    background-color: #000;
+}
+
+.content{
+    margin-top: 0;
+  
+}
+.navbar{
+  
+    background-color: black;
+    height:3.6rem ;
+    padding-left: 4rem;
+    
+}
+.name{
+    
+     padding-top: 7px;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+    color:#e7e9ea ;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    margin-bottom: 0;
+}
+.fill{
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+ color:#71767b ;
+  font-size: 13px;
+margin-top: 0.3rem;
+  line-height: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.fil{
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+ color:#e7e9ea ;
+  font-size: 15px;
+margin: 0;
+  line-height: 20px;
+  font-weight: 400;
+}
+.cover{
+/* width: 100%;
+height: 130px; */
+position: relative;
+
+}
+.cover .imo{
+    width: 100%;
+    height: 130px;
+}
+
+.profile{
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+    margin-left:1rem ;
+   
+}
+.edit{
+    display: flex;
+    justify-content: space-around;
+}
+
+.edi{
+    margin-top: -4rem;
+    height: 2.4rem;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+ font-size: 15px;
+ line-height: 20px;
+ font-weight: 700;
+ color:#eff3f4;
+ border-radius: 1rem;
+ border: 1px solid #71767b ;
+}
+.edi p{
+    
+ margin: 0.5rem 1rem;
+ margin-bottom: 0.2;
+}
+.fnt1{
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    color:#e7e9ea;
+}
+.font1{
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    color: #e7e9ea;
+}
+.font2{
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #71767b;
+    margin-right: 1rem;
+}
+.links{
+    margin-top: 1.5rem;
+    color: #71767b;
+    justify-content: space-around;
+    display: flex;
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 3rem ;
+    border-bottom:1px  solid #71767b;
+    margin-bottom: 0;
+}
+
+.nav{
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed; 
+    height: 3rem;
+   width: 100%;
+   background-color: #000;
+    bottom: 0;
+}
+.nave{
+    width:20px;
+}
+.nave img{
+    width: 100%;
+}
+.posts{
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    color:#eff3f4;
+    /* border-bottom: 1px solid #e7e9ea ; */
+}
+.post{
+    margin:0.8rem;
+    display: flex;
+}
+.ima{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    margin-right:1rem ;
+    margin-top: 1rem;
+}.topi{
+    margin-top: 1.6rem;
+}
+.kip{
+    width: 100%;
+    border-radius: 1rem;
+}
+.lin{
+    margin-top: 0.2rem;
+    display: flex;
+    justify-content: space-around;
+align-items: center;
+}
+
+.lin img{
+    width: 14px;
+    
+}
+.numb{
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #71767b;
+    margin-left: 0.2rem;
+    
+}
+.giv{
+    color: #71767b;
+}
+
+.gal{
+    display: none;
+}
+
+.side-nav{
+    display: none; 
+
+
+}
+
+/*DESKTOP VIEW***********/
+
+
+
+@media  (min-width: 768px) {
+   
+  .div{
+    display: flex;
+    top: 0;
+    position: absolute;
+    width: 97%;
+  }
+  .content{
+    overflow: scroll;
+    overflow: hidden;
+    height: 100%;
+   width: 70%;
+      border-right: 1px solid rgb(122, 117, 110);
+  }
+ 
+.nafi{
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+   margin-bottom: 2rem;
+    align-items: center;
+    width: 20rem;
+    color: #e7e9ea;
+}
+
+
+    .nafi img{
+        width: 2rem;
+        margin:0  1.6rem;
+
+    }
+    .btt{
+        font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font: 600;
+        color: #e7e9ea;
+        background-color: #1d9bf0;
+        border: 0;
+        font-size:20px;
+        border-radius: 3rem;
+        width: 11.5rem;
+        height: 3rem;
+        margin: 1rem 1rem;
+    }
+.grid{
+    display: grid;
+    Grid-template-columns: repeat(3, 1fr);
+    width: 21.8rem;
+    border-radius: 4rem;
+    justify-content: space-around;
+
+}
+.grid img{
+   
+    width: 7rem;
+    height: 7rem;
+}
+
+
+.gal{
+    display: block;
+    position: sticky;
+    top:0;
+   margin-bottom: 0;
+    bottom: 0;
+    padding-left: 1rem;
+    width: 21.8rem;
+    color: #e7e9ea;
+}
+.side input{
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+    font-weight: 400;
+    font-size: 16px;
+    width: 90%;
+    padding-left: 3rem;
+    margin-left: 1.3rem;
+    border-radius: 2rem;
+    height: 2.8rem;
+    margin-bottom: 1rem;
+    color: #71767b;
+    background-color: #16181c;
+    border: 0;
+}
+.oli{
+display: flex;
+   
+}
+.follo{
+    background-color: #16181c;
+    border-radius: 1rem;
+    padding: 0.3rem;
+margin: 1rem 0 ;}
+.sma{
+    width: 3rem;
+}
+.tec{
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 800;
+    color: #e7e9ea;
+    margin-left: 0.8rem;
+    width: 15rem;
+}
+.lip {
+    margin:0 2rem 0 0.4rem;
+}
+.thi{
+    
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    ;
+    font-size: 15px;
+    font-weight: 700;
+    color: #e7e9ea;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+.lip .font2{
+  
+    margin-top: 0.3rem;
+   
+}
+.fola{
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 700;
+    padding: 0.6rem 1.4rem;
+    border-radius: 2rem;
+    margin-top: 1rem;
+}
+
+.ley p{
+    margin: 0 0 0.5rem 1rem;
+   
+}
+.ley .thi{
+    margin: 0 1rem;
+
+}
+.lea{
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dot{
+width: 1.8rem;
+margin: 1rem;
+}
+
+.side-nav{
+    display: block;
+    overflow-y: auto;
+   overflow: scroll; /* Enable vertical scrolling */
+   overflow-x: hidden;
+   max-height: 584px;
+   position: sticky;
+   top: 0;
+   bottom: 0;
+}
+
+
+/*Buttom buttons***********/
+.nav{
+    display: none;
+}
+
+}
