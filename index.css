@@ -2,6 +2,9 @@ body{
     background-color: #000;
     margin: 0.7rem;
 }
+a{
+    text-decoration: none;
+}
 /*CONTENT OF THE PAGE **********/
 .content{
     display: flex;
